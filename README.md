@@ -2,7 +2,7 @@
 
 # Description
 
-LeSingîla est un site web fictif conçu pour un restaurant.
+LeSingîla est un site web conçu pour un restaurant fictif.
 Ce projet a pour objectif de créer une interface élégante et fonctionnelle en utilisant uniquement HTML et CSS.
 
 # Fonctionnalités
