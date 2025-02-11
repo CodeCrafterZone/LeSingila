@@ -36,7 +36,7 @@
         <br />
 
         <div>
-          <label for="event">Type d'évenement:*</label>
+          <label for="event">Type d'évenement:<sup>*</sup></label>
           <select name="event" id="event" required>
             <option value=""></option>
             <option value="Anniversaire">Anniversaire</option>
@@ -49,13 +49,13 @@
         <br />
 
         <div>
-          <label for="date">Date de l'évenement:*</label>
+          <label for="date">Date de l'évenement:<sup>*</sup></label>
           <input type="date" id="date" required />
         </div>
         <br />
 
         <div>
-          <label for="appt">Heure de l'évenement:*</label>
+          <label for="appt">Heure de l'évenement:<sup>*</sup></label>
           <input
             type="time"
             id="appt"
@@ -69,7 +69,7 @@
         <hr />
         <br />
         <div>
-          <label>Nom&Prénom*</label>
+          <label>Nom&Prénom<sup>*</sup></label>
           <br />
 
           <select aria-label="sexe" name="sexe" id="sexe">
@@ -105,7 +105,7 @@
             type="text"
             placeholder="Postal Code"
           />
-          <select aria-label="country" name="country" id="country" required>
+          <select aria-label="country" name="country" id="country">
             <option value="France" selected="selected">France</option>
             <option value="Afghanistan">Afghanistan</option>
             <option value="Afrique_Centrale">Afrique_Centrale</option>
@@ -367,7 +367,7 @@
         <br />
 
         <div>
-          <label>Contact*</label>
+          <label>Contact<sup>*</sup></label>
           <br />
 
           <input
@@ -387,12 +387,14 @@
           />
           <br /><br />
 
-          <label for="email">E-Mail</label><br />
+          <label for="email">E-Mail<sup>*</sup></label
+          ><br />
           <input
             type="email"
             name="email"
             id="email"
             placeholder="johndoe@gmail.com"
+            required
           />
         </div>
         <br />
@@ -403,20 +405,24 @@
           <label for="people">Nombre Personnes:</label>
           <br />
 
-          <label for="adults">Adults:*</label><br />
+          <label for="adults">Adults:<sup>*</sup></label
+          ><br />
           <input type="number" name="adults" id="adults" required /><br /><br />
 
-          <label for="kids">Enfants:*</label><br />
+          <label for="kids">Enfants:<sup>*</sup></label
+          ><br />
           <input type="number" name="kids" id="kids" required /><br /><br />
 
-          <label for="questions">Chaise enfant?*</label><br />
+          <label for="questions">Chaise enfant?<sup>*</sup></label
+          ><br />
           <input type="radio" id="yes" name="questions" />
           <label for="yes">Oui</label>
 
           <input type="radio" id="no" name="questions" />
           <label for="no">Non</label> <br /><br />
 
-          <label for="choose">Nombre de chaise(s)</label><br />
+          <label for="choose">Nombre de chaise(s)<sup>*</sup></label
+          ><br />
           <input type="number" name="choose" id="choose" required /><br /><br />
         </div>
         <hr />
@@ -429,14 +435,10 @@
         <br />
       </fieldset>
     </form>
-  </body>
-  <br />
+    <br />
 
-  <footer>
-    <address>
-      123 rue de démonstration <br />
-      75001 Paris <br />
-      France
-    </address>
-  </footer>
+    <footer>
+      <address>128 rue de démonstration</address>
+    </footer>
+  </body>
 </html>
